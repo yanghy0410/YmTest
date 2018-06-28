@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  Test201805021421
+//
+//  Created by 请加我杨先生 on 2018/5/4.
+//  Copyright © 2018年 请加我杨先生. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+#import "Config.h"
+
+//基础类
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "YMAlert.h"
+#import "BaseViewController.h"
+#import "BaseTabBarViewController.h"
+
+
+//第三方
+#import "MJRefresh.h"
+
+#endif /* PrefixHeader_pch */
